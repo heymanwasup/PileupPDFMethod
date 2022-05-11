@@ -1,0 +1,2 @@
+Error in <TSystem::ExpandFileName>: input: $HOME/.root.mimes, output: $HOME/.root.mimes
+/home/chencheng/MakePileup_calos/run_condor.sh: line 17: 21711 Killed                  ./pileupEstimationByCalo.exe -i ${inputFile} -o ${outputFile} -n ${caloNum}

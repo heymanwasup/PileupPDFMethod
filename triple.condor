@@ -1,0 +1,27 @@
+Universe   = vanilla
+Executable = run_condor.sh 
+Log        = submit.log 
+
+# Newfitter All
+Output     = logs/Newfitter.All.$(Process).out
+Error      = logs/Newfitter.All.$(Process).error
+Arguments  = Newfitter All $(Process)
+Queue 1
+
+# # Newfitter 80
+# Output     = logs/Newfitter.80.$(Process).out
+# Error      = logs/Newfitter.80.$(Process).error
+# Arguments  = Newfitter 80 $(Process)
+# Queue 24
+
+# # Oldfitter All
+# Output     = logs/Oldfitter.80.$(Process).out
+# Error      = logs/Oldfitter.80.$(Process).error
+# Arguments  = Oldfitter 80 $(Process)
+# Queue 24
+
+# # Oldfitter 80
+# Output     = logs/Oldfitter.80.$(Process).out
+# Error      = logs/Oldfitter.80.$(Process).error
+# Arguments  = Oldfitter 80 $(Process)
+# Queue 24
